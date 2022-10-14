@@ -24,6 +24,13 @@ public class Main {
 
         System.out.println(streetName.get(1004));
 
+        for (Integer n : streetName.keySet()){
+            if(n % 2 != 0){
+                System.out.println(n + " " + streetName.get(n));
+            }
+        }
+
+
 
     }
 
